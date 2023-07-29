@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Pangolin&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Pangolin", cursive;
+}
+html{
+  font-size: 100%;
+}
+body {
+  background-color: #e17055;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  width: 35rem;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  background-color: #d63031;
+  border: 0.2rem solid black;
+  text-align: center;
+}
+.remove {
+  width: 35rem;
+  height: 25rem;
+  border: 0.2rem solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #d63031;
+  text-align: center;
+}
+
+.main input {
+  width: 6rem;
+  height: 3rem;
+  padding: 0.5rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border: 0.1rem solid black;
+}
+
+button {
+  width: 9rem;
+  height: 3rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: #e17055;
+  color: black;
+  border-radius: 1rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+@media(max-width: 800px){
+  html{
+    font-size: 80%;
+  }
+}
+@media(max-width: 550px){
+  html{
+    font-size: 70%;
+  }
+}
+@media(max-width: 400px){
+  html{
+    font-size: 60%;
+  }
+}
